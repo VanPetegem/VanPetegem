@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Gt-ace/Gt-ace/main/assets/avp-mark-dark.svg">
-  <img src="https://raw.githubusercontent.com/Gt-ace/Gt-ace/main/assets/avp-mark-light.svg" alt="AVP" height="72">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/avp-mark-dark.svg">
+  <img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/avp-mark-light.svg" alt="AVP" height="72">
 </picture>
 
 <h1>Arthur Van Petegem</h1>
@@ -30,24 +30,24 @@
 <td align="center" width="240" height="64" valign="middle">
   <a href="https://www.unisg.ch">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Gt-ace/Gt-ace/main/assets/hsg-dark.svg">
-      <img src="https://raw.githubusercontent.com/Gt-ace/Gt-ace/main/assets/hsg-light.svg" alt="University of St. Gallen" height="48">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/hsg-dark.svg">
+      <img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/hsg-light.svg" alt="University of St. Gallen" height="48">
     </picture>
   </a>
 </td>
 <td align="center" width="260" height="64" valign="middle">
   <a href="https://www.startglobal.org">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Gt-ace/Gt-ace/main/assets/start-dark.svg">
-      <img src="https://raw.githubusercontent.com/Gt-ace/Gt-ace/main/assets/start-light.svg" alt="START Global" height="56">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/start-dark.svg">
+      <img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/start-light.svg" alt="START Global" height="56">
     </picture>
   </a>
 </td>
 <td align="center" width="240" height="64" valign="middle">
   <a href="https://avp.software">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Gt-ace/Gt-ace/main/assets/avp-mark-dark.svg">
-      <img src="https://raw.githubusercontent.com/Gt-ace/Gt-ace/main/assets/avp-mark-light.svg" alt="AVP Software" height="48">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/avp-mark-dark.svg">
+      <img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/avp-mark-light.svg" alt="AVP Software" height="48">
     </picture>
   </a>
 </td>
@@ -76,7 +76,7 @@
 
 **[Volunteer Platform](https://volunteer.startglobal.org)** &nbsp;·&nbsp; Coordinates 600+ volunteers for START Summit x Hack. Registration, role and shift assignment, team management, and event-day check-in, built mobile-first for the 95% who are on phones. Next.js, Supabase, Cloudflare Containers.
 
-**[Amber](https://github.com/Gt-ace/Amber)** &nbsp;·&nbsp; Self-hostable personal canvas. Link-in-bio, small site, notebook, blog. Content is markdown on disk, no database lock-in, AGPL-3.0.
+**[Amber](https://github.com/VanPetegem/Amber)** &nbsp;·&nbsp; Self-hostable personal canvas. Link-in-bio, small site, notebook, blog. Content is markdown on disk, no database lock-in, AGPL-3.0.
 
 **Crux** &nbsp;·&nbsp; Product comparison engine at [crux.avp.software](https://crux.avp.software). Resolve, fetch, normalize, compare.
 
@@ -102,15 +102,15 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Gt-ace/Gt-ace/main/assets/streak-dark.svg">
-  <img width="100%" src="https://raw.githubusercontent.com/Gt-ace/Gt-ace/main/assets/streak-light.svg" alt="Total contributions, current streak and longest streak">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/streak-dark.svg">
+  <img width="100%" src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/streak-light.svg" alt="Total contributions, current streak and longest streak">
 </picture>
 
 <br><br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Gt-ace/Gt-ace/main/assets/activity-dark.svg">
-  <img width="100%" src="https://raw.githubusercontent.com/Gt-ace/Gt-ace/main/assets/activity-light.svg" alt="Contributions by month over the last twelve months">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/activity-dark.svg">
+  <img width="100%" src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/activity-light.svg" alt="Contributions by month over the last twelve months">
 </picture>
 
 </div>

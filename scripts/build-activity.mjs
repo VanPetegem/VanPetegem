@@ -11,7 +11,7 @@ import { writeFile, mkdir } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const USER = process.env.GH_USER ?? 'Gt-ace';
+const USER = process.env.GH_USER ?? process.env.GITHUB_REPOSITORY_OWNER ?? 'VanPetegem';
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const MONTHS = 12;
 
@@ -40,7 +40,7 @@ const THEMES = {
 
 async function fetchDailyCounts(user) {
   const res = await fetch(`https://github.com/users/${user}/contributions`, {
-    headers: { 'user-agent': 'gt-ace-profile-activity' },
+    headers: { 'user-agent': 'vanpetegem-profile-activity' },
   });
   if (!res.ok) throw new Error(`contributions fetch failed: HTTP ${res.status}`);
   const html = await res.text();

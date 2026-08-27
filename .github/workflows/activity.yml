@@ -30,6 +30,8 @@ jobs:
           node-version: 22
 
       - name: Build charts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           node scripts/build-activity.mjs
           node scripts/build-streak.mjs

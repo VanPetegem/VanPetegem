@@ -11,7 +11,7 @@ import { writeFile, mkdir } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const USER = process.env.GH_USER ?? 'Gt-ace';
+const USER = process.env.GH_USER ?? process.env.GITHUB_REPOSITORY_OWNER ?? 'VanPetegem';
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
 const THEMES = {
@@ -59,14 +59,18 @@ function parseCalendar(html, into) {
 
 async function fetchYear(user, year) {
   const url = `https://github.com/users/${user}/contributions?from=${year}-01-01&to=${year}-12-31`;
-  const res = await fetch(url, { headers: { 'user-agent': 'gt-ace-profile-streak' } });
+  const res = await fetch(url, { headers: { 'user-agent': 'vanpetegem-profile-streak' } });
   if (!res.ok) throw new Error(`contributions fetch failed for ${year}: HTTP ${res.status}`);
   return res.text();
 }
 
 async function fetchAllDays(user) {
+  const headers = { 'user-agent': 'vanpetegem-profile-streak', accept: 'application/vnd.github+json' };
+  if (process.env.GITHUB_TOKEN) {
+    headers.authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+  }
   const res = await fetch(`https://api.github.com/users/${user}`, {
-    headers: { 'user-agent': 'gt-ace-profile-streak', accept: 'application/vnd.github+json' },
+    headers,
   });
   if (!res.ok) throw new Error(`user fetch failed: HTTP ${res.status}`);
   const createdYear = new Date((await res.json()).created_at).getUTCFullYear();
