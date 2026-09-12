@@ -1,5 +1,6 @@
 <div align="center">
 
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/avp-mark-dark.svg">
   <img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/avp-mark-light.svg" alt="AVP" height="72">
