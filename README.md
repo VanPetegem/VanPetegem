@@ -26,48 +26,15 @@
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="240" height="64" valign="middle">
-  <a href="https://www.unisg.ch">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/hsg-dark.svg">
-      <img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/hsg-light.svg" alt="University of St. Gallen" height="48">
-    </picture>
-  </a>
-</td>
-<td align="center" width="260" height="64" valign="middle">
-  <a href="https://www.startglobal.org">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/start-dark.svg">
-      <img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/start-light.svg" alt="START Global" height="56">
-    </picture>
-  </a>
-</td>
-<td align="center" width="240" height="64" valign="middle">
-  <a href="https://avp.software">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/avp-mark-dark.svg">
-      <img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/avp-mark-light.svg" alt="AVP Software" height="48">
-    </picture>
-  </a>
-</td>
-</tr>
-<tr>
-<td align="center" valign="top">
-  <b>University of St. Gallen</b><br>
-  <sub>Computer Science</sub>
-</td>
-<td align="center" valign="top">
-  <b>START Global</b><br>
-  <sub>Tech &amp; Innovation</sub>
-</td>
-<td align="center" valign="top">
-  <b>AVP Software</b><br>
-  <sub>Freelance Engineering</sub>
-</td>
-</tr>
-</table>
+<p>
+  <a href="https://www.unisg.ch"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/hsg-dark.svg"><img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/hsg-light.svg" alt="University of St. Gallen" height="48"></picture></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.startglobal.org"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/start-dark.svg"><img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/start-light.svg" alt="START Global" height="56"></picture></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://avp.software"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/avp-mark-dark.svg"><img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/avp-mark-light.svg" alt="AVP Software" height="48"></picture></a>
+</p>
+
+<sub><b>University of St. Gallen</b> · Computer Science &nbsp;&nbsp;&nbsp; <b>START Global</b> · Tech &amp; Innovation &nbsp;&nbsp;&nbsp; <b>AVP Software</b> · Freelance Engineering</sub>
 
 </div>
 
@@ -79,7 +46,7 @@
 
 **[Amber](https://github.com/VanPetegem/Amber)** &nbsp;·&nbsp; Self-hostable personal canvas. Link-in-bio, small site, notebook, blog. Content is markdown on disk, no database lock-in, AGPL-3.0.
 
-**Crux** &nbsp;·&nbsp; Product comparison engine at [crux.avp.software](https://crux.avp.software). Resolve, fetch, normalize, compare.
+**[Hack League](https://hack-league.startglobal.org)** &nbsp;·&nbsp; Hackathon platform for START chapters, with chapter-run events feeding one cross-chapter season leaderboard. SvelteKit, Supabase, Cloudflare Workers.
 
 **[avp.software](https://avp.software)** &nbsp;·&nbsp; My portfolio. Astro with React islands, static output, nginx in a container on a Hetzner box.
 
@@ -89,10 +56,39 @@
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Cjava%2Cpy%2Csvelte%2Creact%2Cnextjs%2Castro%2Ctailwindcss%2Cthreejs%2Csupabase%2Ccloudflare%2Cdocker%2Cnginx%2Csqlite%2Csentry%2Cvitest&theme=dark&perline=8">
-  <img src="https://skillicons.dev/icons?i=ts%2Cjava%2Cpy%2Csvelte%2Creact%2Cnextjs%2Castro%2Ctailwindcss%2Cthreejs%2Csupabase%2Ccloudflare%2Cdocker%2Cnginx%2Csqlite%2Csentry%2Cvitest&theme=light&perline=8" alt="TypeScript, Java, Python, Svelte, React, Next.js, Astro, Tailwind CSS, Three.js, Supabase, Cloudflare, Docker, nginx, SQLite, Sentry, Vitest">
-</picture>
+<p>
+<img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/stack/typescript.svg" alt="TypeScript" title="TypeScript" height="40">
+&nbsp;&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/stack/java.svg" alt="Java" title="Java" height="40">
+&nbsp;&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/stack/python.svg" alt="Python" title="Python" height="40">
+&nbsp;&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/stack/svelte.svg" alt="Svelte" title="Svelte" height="40">
+&nbsp;&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/stack/react.svg" alt="React" title="React" height="40">
+&nbsp;&nbsp;&nbsp;
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/stack/nextjs-dark.svg"><img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/stack/nextjs-light.svg" alt="Next.js" title="Next.js" height="40"></picture>
+&nbsp;&nbsp;&nbsp;
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/stack/astro-dark.svg"><img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/stack/astro-light.svg" alt="Astro" title="Astro" height="40"></picture>
+&nbsp;&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/stack/tailwindcss.svg" alt="Tailwind CSS" title="Tailwind CSS" height="40">
+<br><br>
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/stack/threejs-dark.svg"><img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/stack/threejs-light.svg" alt="Three.js" title="Three.js" height="40"></picture>
+&nbsp;&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/stack/supabase.svg" alt="Supabase" title="Supabase" height="40">
+&nbsp;&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/stack/cloudflare.svg" alt="Cloudflare" title="Cloudflare" height="40">
+&nbsp;&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/stack/docker.svg" alt="Docker" title="Docker" height="40">
+&nbsp;&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/stack/nginx.svg" alt="nginx" title="nginx" height="40">
+&nbsp;&nbsp;&nbsp;
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/stack/sqlite-dark.svg"><img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/stack/sqlite-light.svg" alt="SQLite" title="SQLite" height="40"></picture>
+&nbsp;&nbsp;&nbsp;
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/stack/sentry-dark.svg"><img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/stack/sentry-light.svg" alt="Sentry" title="Sentry" height="40"></picture>
+&nbsp;&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/VanPetegem/VanPetegem/main/assets/stack/vitest.svg" alt="Vitest" title="Vitest" height="40">
+</p>
 
 </div>
 
