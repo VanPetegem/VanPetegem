@@ -48,6 +48,8 @@
 
 **[Hack League](https://hack-league.startglobal.org)** &nbsp;·&nbsp; Hackathon platform for START chapters, with chapter-run events feeding one cross-chapter season leaderboard. SvelteKit, Supabase, Cloudflare Workers.
 
+**[kcal](https://github.com/VanPetegem/calorie-tracker)** &nbsp;·&nbsp; Ad free calorie tracker PWA built for Swiss supermarket products. Barcode scanning, nutrition label photos read by Claude, meal prep batches and adaptive targets. SvelteKit, Cloudflare Workers and D1, MIT.
+
 **[avp.software](https://avp.software)** &nbsp;·&nbsp; My portfolio. Astro with React islands, static output, nginx in a container on a Hetzner box.
 
 ---
